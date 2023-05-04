@@ -7,18 +7,17 @@
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    height: 100vh;
+    width: 100vw;
 }
 
 .container {
-    width: 95%;
-    max-width: 420px;
-    /* height: 400px; */
+    width: 420px;
+    max-width: 800px;
     background-color: #000;
     opacity: 0.8;
     border-radius: 25px;
@@ -64,12 +63,17 @@ h2 {
     display: flex;
     align-items: center;
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.img-forecast {
+    width: 50px;
 }
 
 .moisture {
     margin-top: 30px;
-    font-weight: 300;
+    font-weight: 300px;
     font-size: 18px;
 }
 
